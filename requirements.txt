@@ -1,0 +1,3 @@
+scikit-learn>=1.7                                                                
+jupyter-book>=2.0.0                                                              
+jupyterlab

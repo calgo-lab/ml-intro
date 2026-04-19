@@ -1,0 +1,35 @@
+version: 1
+project:
+  title: Machine Learning
+  id: 2a82b35f-2c36-4bb7-ae01-c9fa3477e8e2
+  toc:
+    - file: intro.md
+    - file: intro/ml-intro.ipynb
+      title: Intro
+    - title: Recap
+      children: 
+        - file: recap/python-intro-short.ipynb
+        - file: recap/math-recap.ipynb
+        - file: recap/numpy-intro.ipynb
+    - file: ncc/ncc.ipynb
+  downloads:
+    - id: lecture-script
+      title: Lecture-Script (PDF)
+  exports:
+    - format: pdf
+      id: lecture-script
+      output: exports/data-science-workflow.pdf
+      articles:
+        - file: intro/ml-intro.ipynb
+        - title: Recap
+          children: 
+            - file: recap/python-intro-short.ipynb
+            - file: recap/math-recap.ipynb
+            - file: recap/numpy-intro.ipynb
+        - file: ncc/ncc.ipynb
+site:
+  template: book-theme
+  options:
+    favicon: calgo-lab-logo.png
+    logo: calgo-lab-logo-ml.png
+    # logo_text: Machine Learning
