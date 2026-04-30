@@ -18,7 +18,7 @@ project:
   exports:
     - format: pdf
       id: lecture-script
-      output: exports/data-science-workflow.pdf
+      output: exports/ml-intro.pdf
       articles:
         - file: intro/ml-intro.ipynb
         - title: Recap
@@ -30,6 +30,6 @@ project:
 site:
   template: book-theme
   options:
-    favicon: calgo-lab-logo.png
-    logo: calgo-lab-logo-ml.png
-    # logo_text: Machine Learning
+    favicon: figures/calgo-lab-logo.png
+    logo: figures/calgo-lab-logo.png
+    logo_text: ML Intro
