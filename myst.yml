@@ -12,6 +12,7 @@ project:
         - file: recap/math-recap.ipynb
         - file: recap/numpy-intro.ipynb
     - file: ncc/ncc.ipynb
+    - file: knn.ipynb
   downloads:
     - id: lecture-script
       title: Lecture-Script (PDF)
@@ -27,6 +28,7 @@ project:
             - file: recap/math-recap.ipynb
             - file: recap/numpy-intro.ipynb
         - file: ncc/ncc.ipynb
+        - file: knn.ipynb
 site:
   template: book-theme
   options:
