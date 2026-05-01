@@ -1,18 +1,25 @@
 version: 1
 project:
-  title: Machine Learning
+  title: ML Intro
   id: 2a82b35f-2c36-4bb7-ae01-c9fa3477e8e2
   toc:
     - file: intro.md
     - file: intro/ml-intro.ipynb
-      title: Intro
-    - title: Recap
-      children: 
-        - file: recap/python-intro-short.ipynb
-        - file: recap/math-recap.ipynb
-        - file: recap/numpy-intro.ipynb
-    - file: ncc/ncc.ipynb
-    - file: knn.ipynb
+      title: Prologue
+    - title: Preliminaries
+      children:
+      - file: recap/python-intro-short.ipynb
+      - file: recap/math-recap.ipynb
+      - file: recap/numpy-intro.ipynb
+    - title: Algorithms
+      children:
+      - file: ncc/ncc.ipynb
+      - file: knn.ipynb
+    - title: ML Systems
+      children:
+      - file: feature_extraction.ipynb
+      - file: pipelines.ipynb
+      - file: evaluation.ipynb
   downloads:
     - id: lecture-script
       title: Lecture-Script (PDF)
@@ -29,6 +36,7 @@ project:
             - file: recap/numpy-intro.ipynb
         - file: ncc/ncc.ipynb
         - file: knn.ipynb
+        - file: feature_extraction.ipynb
 site:
   template: book-theme
   options:
