@@ -40,6 +40,5 @@ project:
 site:
   template: book-theme
   options:
-    favicon: figures/calgo-lab-logo.png
-    logo: figures/calgo-lab-logo.png
+    logo: ./figures/calgo-lab-logo.png
     logo_text: ML Intro
