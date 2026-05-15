@@ -18,6 +18,7 @@ project:
     - title: Unupervised Algorithms
       children:
       - file: clustering.ipynb
+      - file: pca.ipynb
     - title: ML Systems
       children:
       - file: feature_extraction.ipynb
@@ -44,6 +45,7 @@ project:
         - title: Unupervised Algorithms
           children:
           - file: clustering.ipynb
+          - file: pca.ipynb
 site:
   template: book-theme
   options:
