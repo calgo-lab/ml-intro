@@ -11,10 +11,13 @@ project:
       - file: recap/python-intro-short.ipynb
       - file: recap/math-recap.ipynb
       - file: recap/numpy-intro.ipynb
-    - title: Algorithms
+    - title: Supervised Algorithms
       children:
       - file: ncc/ncc.ipynb
       - file: knn.ipynb
+    - title: Unupervised Algorithms
+      children:
+      - file: clustering.ipynb
     - title: ML Systems
       children:
       - file: feature_extraction.ipynb
@@ -34,9 +37,13 @@ project:
             - file: recap/python-intro-short.ipynb
             - file: recap/math-recap.ipynb
             - file: recap/numpy-intro.ipynb
-        - file: ncc/ncc.ipynb
-        - file: knn.ipynb
-        - file: feature_extraction.ipynb
+        - title: Supervised Algorithms
+          children:
+          - file: ncc/ncc.ipynb
+          - file: knn.ipynb
+        - title: Unupervised Algorithms
+          children:
+          - file: clustering.ipynb
 site:
   template: book-theme
   options:
