@@ -16,6 +16,7 @@ project:
       - file: ncc/ncc.ipynb
       - file: knn.ipynb
       - file: linear-regression.ipynb
+      - file: perceptrons.ipynb
     - title: Unupervised Algorithms
       children:
       - file: clustering.ipynb
@@ -44,6 +45,7 @@ project:
           - file: ncc/ncc.ipynb
           - file: knn.ipynb
           - file: linear-regression.ipynb
+          - file: perceptrons.ipynb
         - title: Unupervised Algorithms
           children:
           - file: clustering.ipynb
